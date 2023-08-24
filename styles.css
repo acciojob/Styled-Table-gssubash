@@ -1,1 +1,9 @@
 /* your code */
+table{
+	border: 1px solid white;
+	border-radius: 100px;
+}
+thead{
+	color:white;
+	background-color: blueviolet;
+}
