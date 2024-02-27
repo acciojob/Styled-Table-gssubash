@@ -1,9 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
 /* your code */
 table{
-	border: 1px solid white;
-	border-radius: 100px;
+	width:95vw;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 0.7em;
+	margin: 20% auto;
+	border-radius: 10px;
+	overflow: hidden;
 }
-thead{
-	color:white;
-	background-color: blueviolet;
+
+tr,t{
+	/* width: 100%; */
+}
+
+thead tr{
+	
+	color: #ffffff;
+	background-color: #215A8E;
+}
+
+tbody tr:nth-child(odd),tr:nth-child(odd) td{
+	background-color: #ffffff;
+}
+tbody tr:nth-child(even),tr:nth-child(even) td{
+	background-color: #dddddd;
+}
+
+td,th{
+	padding: 1em;
+	text-align:left;
 }
